@@ -27,7 +27,7 @@ Clone the Repository: Clone this repository to your local machine.
 
 bash
 Copy code
-git clone https://github.com/your_username/covid-vaccinations-deaths-sql-project.git
+git clone https://github.com/k10sj02/covid-vaccinations-deaths-sql-project.git
 Set up Database: Import the dataset into your preferred SQL database management system (DBMS). Ensure that the tables are correctly created and populated.
 
 Run Queries: Execute the SQL scripts in your DBMS to perform analysis on the dataset.
