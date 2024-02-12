@@ -1,4 +1,4 @@
-# more-sql
+# COVID Tracking
 
 COVID Vaccinations and Deaths SQL Project
 Overview
