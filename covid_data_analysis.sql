@@ -184,4 +184,3 @@ JOIN
 WHERE 
     t1.continent IS NOT NULL;
 
-Select
