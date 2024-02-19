@@ -34,15 +34,15 @@ Run Queries: Execute the SQL scripts in your DBMS to perform analysis on the dat
 ### Results
 The analysis yielded the following insights:
 
-Trends in COVID-19 vaccination rates over time.
-Geographical distribution of vaccination coverage.
-Correlation between vaccination rates and COVID-19 mortality rates.
-Identification of high-risk areas based on mortality data.
+- Trends in COVID-19 vaccination rates over time.
+- Geographical distribution of vaccination coverage.
+- Correlation between vaccination rates and COVID-19 mortality rates.
+- Identification of high-risk areas based on mortality data.
 
 ### Future Improvements
-Incorporate demographic data to analyze vaccination and mortality rates among different population groups.
-Implement advanced statistical analyses to identify significant trends and patterns.
-Visualize the results using interactive charts and graphs for better understanding and interpretation.
+- Incorporate demographic data to analyze vaccination and mortality rates among different population groups.
+- Implement advanced statistical analyses to identify significant trends and patterns.
+- Visualize the results using interactive charts and graphs for better understanding and interpretation.
 
 ### Contributing
 Contributions to this project are welcome. Feel free to submit issues, feature requests, or pull requests.
