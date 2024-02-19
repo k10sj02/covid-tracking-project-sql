@@ -17,7 +17,7 @@ The project is organized as follows:
 SQL Queries: 
 This directory contains SQL scripts used to query the dataset and extract insights.
 covid_data_analysis.sql: SQL queries analyzing COVID-19 vaccination and mortality trends.
-add-csv-to-sql-workbench.ipynb: This syntax loads data from CSV files into Pandas dataframes, converts date columns to datetime format, and writes the data into corresponding tables within a MySQL database named covid-tracking, utilizing SQLAlchemy for the connection.
+add-csv-to-sql-workbench.ipynb: This syntax loads data from CSV files into Pandas dataframes, converts date columns to datetime format, and writes the data into corresponding tables within a MySQL database named `covid-tracking`, utilizing SQLAlchemy for the connection.
 
 ### Getting Started
 To run the SQL queries and reproduce the analysis:
@@ -38,7 +38,8 @@ Trends in COVID-19 vaccination rates over time.
 Geographical distribution of vaccination coverage.
 Correlation between vaccination rates and COVID-19 mortality rates.
 Identification of high-risk areas based on mortality data.
-Future Improvements
+
+### Future Improvements
 Incorporate demographic data to analyze vaccination and mortality rates among different population groups.
 Implement advanced statistical analyses to identify significant trends and patterns.
 Visualize the results using interactive charts and graphs for better understanding and interpretation.
