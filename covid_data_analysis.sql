@@ -1,3 +1,10 @@
+/*
+Covid 19 Data Exploration 
+
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+
+*/
+
 --General EDA
 
 SELECT *
@@ -10,7 +17,6 @@ ORDER BY 3,4;
 
 SELECT location, date, total_cases, new_cases, total_deaths, population
 FROM coviddeaths
-WHERE location = 'Jamaica'
 ORDER BY 1, 2;
 
 -- Looking at Total Cases vs Total Deaths
@@ -18,7 +24,8 @@ ORDER BY 1, 2;
 
 SELECT location, date, total_cases, new_cases, total_deaths, (total_deaths/total_cases)*100 AS death_rate
 FROM coviddeaths
-WHERE location = 'Jamaica'
+WHERE location LIKE '%states%'
+and continent is not null
 ORDER BY 1, 2;
 
 -- Looking at Total Cases vs Population
@@ -26,7 +33,6 @@ ORDER BY 1, 2;
 
 SELECT location, date, total_cases, population, (total_cases/population)*100 AS case_rate
 FROM coviddeaths
-WHERE location = 'Jamaica'
 ORDER BY 1, 2;
 
 -- Looking at countries with highest infection rate compared to population
@@ -51,6 +57,14 @@ FROM coviddeaths
 WHERE continent is NOT NULL
 GROUP BY continent
 ORDER BY TotalDeathCount DESC
+
+-- Case Rate Growth
+
+Select Location, continent, Population,date, MAX(total_cases) as HighestInfectionCount,  Max((total_cases/population))*100 as PercentPopulationInfected
+From coviddeaths
+WHERE continent IS NOT NULL
+Group by Location, Population, continent, date
+order by PercentPopulationInfected desc;
 
 -- Global Numbers
 -- The case fatality rate helps us to measure the severity of the disease outbreak 
@@ -183,4 +197,3 @@ JOIN
     covidvaccinations t2 ON t1.location = t2.location AND t1.date = t2.date
 WHERE 
     t1.continent IS NOT NULL;
-
