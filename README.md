@@ -39,6 +39,10 @@ The analysis yielded the following insights:
 - Correlation between vaccination rates and COVID-19 mortality rates.
 - Identification of high-risk areas based on mortality data.
 
+### Tableau Dashboard 
+
+![COVID-Dashboard](https://github.com/k10sj02/covid-tracking-project-sql/assets/35823259/deafdd74-05f0-4458-babc-325408b783ee)
+
 ### Future Improvements
 - Incorporate demographic data to analyze vaccination and mortality rates among different population groups.
 - Implement advanced statistical analyses to identify significant trends and patterns.
