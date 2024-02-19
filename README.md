@@ -17,7 +17,7 @@ The project is organized as follows:
 SQL Queries: 
 This directory contains SQL scripts used to query the dataset and extract insights.
 - `covid_data_analysis.sql`: SQL queries analyzing COVID-19 vaccination and mortality trends.
-- `add-csv-to-sql-workbench.ipynb`: TThe `add-csv-to-sql-workbench.ipynb` script is crucial in data engineering as it automates the process of loading CSV data into MySQL databases, demonstrating effective data pipeline management by leveraging Pandas for data manipulation and SQLAlchemy for seamless database integration.
+- `add-csv-to-sql-workbench.ipynb`: Crucial in data engineering, this script automates the process of loading CSV data into MySQL databases, demonstrating effective data pipeline management by leveraging Pandas for data manipulation and SQLAlchemy for seamless database integration.
 
 ### Getting Started
 To run the SQL queries and reproduce the analysis:
